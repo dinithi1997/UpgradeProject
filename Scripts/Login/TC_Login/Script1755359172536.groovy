@@ -17,3 +17,39 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://hmesprimerywebqa.azurewebsites.net/HMES/home')
+
+WebUI.verifyElementText(findTestObject('Login/Page_HMES/div_Sign In'), 'Sign in')
+
+WebUI.setText(findTestObject('Login/Page_HMES/input_Sign in_Email'), 'Dinithi.Anupama@hirdaramani.com')
+
+WebUI.verifyMatch('Dinithi.Anupama@hirdaramani.com', 'Dinithi.Anupama@hirdaramani.com', true)
+
+WebUI.click(findTestObject('Login/Page_HMES/button_Sign in'))
+
+WebUI.verifyElementText(findTestObject('Login/Page_HMES/div_Password'), 'Enter password')
+
+WebUI.setEncryptedText(findTestObject('Login/Page_HMES/input_Enter password'), 'GA8dOj7ubeRtlgf9qHBmVg==')
+
+WebUI.verifyMatch('7ujm&UJM', '7ujm&UJM', true)
+
+WebUI.click(findTestObject('Login/Page_HMES/button_Sign in'))
+
+WebUI.click(findTestObject('Login/Page_HMES/button_Sign in'))
+
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Welcome Back', true)
+
+WebUI.verifyElementText(findTestObject('Login/Page_HMES/div_Site'), 'Site')
+
+WebUI.click(findTestObject('Login/Page_HMES/div_SiteDropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Login/Page_HMES/span_Please Select a Site'))
+
