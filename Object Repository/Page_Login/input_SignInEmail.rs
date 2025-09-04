@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Sign in_Email</name>
+   <name>input_SignInEmail</name>
    <tag></tag>
    <elementGuidId>2ba172cd-c692-43a1-80ef-7a427d31f1e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#i0116</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='i0116']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#i0116</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>e973aac6-7837-4315-b355-98287642dba6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-select-value-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='mat-select-value-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-select-value-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Enter password</name>
+   <name>input_EnterPassword</name>
    <tag></tag>
    <elementGuidId>826769ff-302c-4c39-8244-7185f87f451d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#i0118</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='i0118']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#i0118</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

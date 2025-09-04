@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Site_mat-select-value-0</name>
+   <name>div_Password</name>
    <tag></tag>
-   <elementGuidId>24b3640d-c665-46c2-a14b-c0dc48f1b0ff</elementGuidId>
+   <elementGuidId>6219de12-8aa6-4495-9fbc-752b5e1046ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-select-value-0</value>
+         <key>XPATH</key>
+         <value>//*[text()='Enter password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-select-value-0']</value>
+         <key>CSS</key>
+         <value>#loginHeader > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,94 +23,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5e0e37c1-059b-45fa-bf9f-239b0d976b5c</webElementGuid>
+      <webElementGuid>aef3bc7f-6704-480a-9d69-bf466fd64760</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>role</name>
       <type>Main</type>
-      <value>mat-mdc-select-value ng-tns-c1073613477-2</value>
-      <webElementGuid>e0f2bf89-927b-425f-a102-cb161431c02a</webElementGuid>
+      <value>heading</value>
+      <webElementGuid>ea72e14d-52e4-46b8-92d2-88f49cb593e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>aria-level</name>
       <type>Main</type>
-      <value>mat-select-value-0</value>
-      <webElementGuid>47263186-62e6-4448-a952-dba815e9a130</webElementGuid>
+      <value>1</value>
+      <webElementGuid>ed533b57-82be-48a2-a226-ee9da6e04002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-bind</name>
+      <type>Main</type>
+      <value>text: str['CT_PWD_STR_EnterPassword_Title']</value>
+      <webElementGuid>d0ababd6-1593-47ce-ba2a-75f0c53b1162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>K2 Sewing Plant</value>
-      <webElementGuid>49a26b46-1e69-4afe-a89e-c83b47332cd1</webElementGuid>
+      <value>Enter password</value>
+      <webElementGuid>7970e1f3-9570-4c93-bee3-cc5fa75f462f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-select-value-0&quot;)</value>
-      <webElementGuid>8999ec2a-a3ee-4b6f-940c-ea22c31f93ef</webElementGuid>
+      <value>id(&quot;loginHeader&quot;)/div[1]</value>
+      <webElementGuid>2cd23395-f595-4b5d-bccf-573be89ba9eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='mat-select-value-0']</value>
-      <webElementGuid>de1deb4e-4035-4174-984e-29755f72cf74</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-select[@id='site']/div/div</value>
-      <webElementGuid>75995653-a75f-482e-b6c0-c8774453ecff</webElementGuid>
+      <value>//div[@id='loginHeader']/div</value>
+      <webElementGuid>dbc12afc-b025-4d52-99b9-ca614edc3152</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Site'])[1]/following::div[9]</value>
-      <webElementGuid>e2974816-77dd-4ffb-9011-a2b696d1607d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dinithi.anupama@hirdaramani.com'])[1]/following::div[5]</value>
+      <webElementGuid>17390716-541a-49cc-9f29-1a5ad23ee8b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome Back!'])[1]/following::div[12]</value>
-      <webElementGuid>0b0253f7-377d-4bcf-b846-d53f645c31f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::div[5]</value>
+      <webElementGuid>b7435e7d-ef32-4601-8ad2-e032fafc541b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[1]/preceding::div[6]</value>
-      <webElementGuid>4ef55484-6c36-470e-abae-89d27e4bcb95</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of use'])[1]/preceding::div[18]</value>
+      <webElementGuid>45dd43b5-307c-4df8-9ed6-edb684f09e81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enter password']/parent::*</value>
+      <webElementGuid>3d7436f8-a8dc-483c-91b9-3e76d47280b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-select/div/div</value>
-      <webElementGuid>ba853af8-79af-41f4-b62c-1a08a61bb096</webElementGuid>
+      <value>//div[2]/div/div[2]/div</value>
+      <webElementGuid>21e29605-dae3-4411-962c-4f2200e5e8f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'mat-select-value-0' and (text() = 'K2 Sewing Plant' or . = 'K2 Sewing Plant')]</value>
-      <webElementGuid>f604fa49-e313-46fc-b61d-2a692c1f4fa5</webElementGuid>
+      <value>//div[(text() = 'Enter password' or . = 'Enter password')]</value>
+      <webElementGuid>7d391649-cbf4-4a9c-b8f0-92ffd0dad684</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

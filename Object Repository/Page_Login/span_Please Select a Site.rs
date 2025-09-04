@@ -6,12 +6,12 @@
    <elementGuidId>8e79f897-efe4-4abf-829e-f3bdf1249aa0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-4 > span.mdc-list-item__primary-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-4']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-4 > span.mdc-list-item__primary-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

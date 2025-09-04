@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hmesprimerywebqa.azurewebsites.net/HMES/home')
 
-WebUI.verifyElementText(findTestObject('Login/Page_HMES/div_Sign In'), 'Sign in')
+WebUI.verifyElementText(findTestObject('Page_Login/div_SignIn'), 'Sign in')
 
-WebUI.setText(findTestObject('Login/Page_HMES/input_Sign in_Email'), 'Dinithi.Anupama@hirdaramani.com')
+WebUI.setText(findTestObject('Page_Login/input_SignInEmail'), 'Dinithi.Anupama@hirdaramani.com')
 
 WebUI.verifyMatch('Dinithi.Anupama@hirdaramani.com', 'Dinithi.Anupama@hirdaramani.com', true)
 
-WebUI.click(findTestObject('Login/Page_HMES/button_Sign in'))
+WebUI.click(findTestObject('Page_Login/button_SignIn'))
 
-WebUI.verifyElementText(findTestObject('Login/Page_HMES/div_Password'), 'Enter password')
+WebUI.verifyElementText(findTestObject('Page_Login/div_Password'), 'Enter password')
 
-WebUI.setEncryptedText(findTestObject('Login/Page_HMES/input_Enter password'), 'GA8dOj7ubeRtlgf9qHBmVg==')
+WebUI.setEncryptedText(findTestObject('Page_Login/input_EnterPassword'), 'GA8dOj7ubeRtlgf9qHBmVg==')
 
 WebUI.verifyMatch('7ujm&UJM', '7ujm&UJM', true)
 
-WebUI.click(findTestObject('Login/Page_HMES/button_Sign in'))
+WebUI.click(findTestObject('Page_Login/button_SignIn'))
 
-WebUI.click(findTestObject('Login/Page_HMES/button_Sign in'))
+WebUI.click(findTestObject('Page_Login/button_SignIn'))
 
 WebUI.maximizeWindow()
 
@@ -45,11 +45,11 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('Welcome Back', true)
 
-WebUI.verifyElementText(findTestObject('Login/Page_HMES/div_Site'), 'Site')
+WebUI.verifyElementText(findTestObject('Page_Login/div_Site'), 'Site')
 
-WebUI.click(findTestObject('Login/Page_HMES/div_SiteDropdown'))
+WebUI.click(findTestObject('Page_Login/div_SiteDropdown'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Login/Page_HMES/span_Please Select a Site'))
+WebUI.click(findTestObject('Page_Login/span_Please Select a Site'))
 

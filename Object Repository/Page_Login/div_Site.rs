@@ -6,12 +6,12 @@
    <elementGuidId>4817d990-eabb-4b63-bfcf-ee77a0c3e37a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>mat-label.s-label</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[text()='Site']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-label.s-label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Sign in</name>
+   <name>button_SignIn</name>
    <tag></tag>
    <elementGuidId>aafc328d-10ac-485e-ac8b-662c105a9b54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#idSIButton9</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='idSIButton9']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#idSIButton9</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
